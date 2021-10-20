@@ -13,11 +13,11 @@ CREATE TABLE "titles" (
 CREATE TABLE "employees" (
     "emp_no" INTEGER   NOT NULL,
     "emp_title_id" VARCHAR   NOT NULL,
-    "birth_date" VARCHAR   NOT NULL,
+    "birth_date" DATE   NOT NULL,
     "first_name" VARCHAR   NOT NULL,
     "last_name" VARCHAR   NOT NULL,
     "sex" VARCHAR   NOT NULL,
-    "hire_date" VARCHAR   NOT NULL,
+    "hire_date" DATE   NOT NULL,
     CONSTRAINT "pk_employees" PRIMARY KEY (
         "emp_no"
      )
